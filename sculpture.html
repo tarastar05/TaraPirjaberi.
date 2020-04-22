@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+ p {
+  font-size: 15px;
+ }
+
+ #wrapper {
+
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  /*box-shadow: 3px 3px 3px 3px #808080;*/
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p{
+  text-align: left;
+  font-family: helvetica, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="header">
+  <h1>Tara Pirjaberi</h1>
+  <h3>My Sculpture Gallery</h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Artiststatement.html">Artist Statement</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="wrapper">
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+      <img src="crescent1.jpg"/>
+    </div>
+    <div class="content">
+    <h2>Unspoken Love</h2>
+    <body style="background-color:black;">
+    <p>Medium: Walnut, Cherry,& Oak Wood and Galvanized Steel</p>
+    <p>Date: 12/10/19</p>
+    <p>This is one of my favorite three dimensional pieces I have made thus far. Initially the idea was to have two side profiles looking at each other carved out of one piece of wood. The sculpture evolved to using two different kinds of wood representing two different kinds of people. It could be representing love can be between two individuals of different nationalities or people of the same sexual orientation. There are endless ways it exists there should not be any judgement against it. </p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="pineapplehead1.jpg"/>
+    </div>
+    <div class="content">
+    <h2>Pineapple Head</h2>
+    <p>Medium: Foam Head, Walnut Wood Board, and Plaster</p>
+    <p>Date: 10/30/19</p>
+    <p>The concept I had for this piece was to use a foam head and paint it gold so it would transform the piece. I then decided to make a mold of a pineapple create many pineapple plaster copies resembling hair on the man. I cut out a wooden base to keep everything in place since the plaster outweighed the foam.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="media">
+      <img src="wiretree1.jpg"/>
+    </div>
+    <div class="content">
+    <h2>Wire Tree</h2>
+    <p>Medium:Galvanized Steel Wire and Copper Wire</p>
+    <p>Date: 10/3/19</p>
+    <p>I was inspired by the tree of life. I am always drawn to the shapes of trees especially the old eerie ones that had once lived a life full of bloom with many animals living on or within it. I decided to make a twisted tree with thin and thick wires to add dimension. The gold specs respresent leaves.</p>
+    </div>
+  </div>
+
+  
+  
+</div>
+
+  </div>
+</body>
+</html>
